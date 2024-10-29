@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hackathon 2024</title>
+    <meta name="author" content="Álvaro Arizu para UM ESSICA"> 
+
+    <link rel="icon" href="./css/pic/um-1-73x73.png" sizes="32x32">
+	<link rel="icon" href="./css/pic/um-1.png" sizes="192x192">
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <!-- Favicon -->
+    <link rel="icon" href="/static/images/ico/um-1-73x73.png" sizes="32x32">
+    <link rel="icon" href="/static/images/ico/um-1.png" sizes="192x192">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">
+                <img src="./css/pic/Logo-UM.png" class="logo-icon-small"">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#introduccion">Introducción</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#fundamentacion">Fundamentación</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#inscripcion">Inscripción</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#cronograma">Cronograma</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#objetivos">Objetivos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#destinatarios">Destinatarios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#metodologia">Metodología</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#beneficios">Beneficios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#conclusion">Conclusión</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#ubicacion">Ubicación</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+    <main>
+        <section id="introduccion">
+            <!-- Carrusel de fotos -->
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <br>
+                    <h2>El evento se llevará a cabo el 12 de Septiembre de 8 a 16hs</h2>
+                    <div class="carousel-item active">
+                        <img src="./css/pic/Img Carrusel/banner.jpg" class="d-block w-100" alt="banner">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./css/pic/Img Carrusel/robot.jpeg" class="d-block w-100" alt="Robótica">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Robótica</h5>
+                            <p>Combina ingeniería y tecnología para crear máquinas que pueden realizar tareas de manera autónoma. Desde robots industriales hasta dispositivos de asistencia personal, la robótica está transformando nuestra forma de vivir y trabajar.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./css/pic/Img Carrusel/nuro.jpeg" class="d-block w-100" alt="Inteligencia Artificial">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Redes Neuronales</h5>
+                            <p>Son un componente crucial de la inteligencia artificial que imita el funcionamiento del cerebro humano. Utilizadas en aplicaciones como el reconocimiento de voz, la visión por computadora y los vehículos autónomos, están revolucionando múltiples industrias.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./css/pic/Img Carrusel/inver.jpeg" class="d-block w-100" alt="Ciberseguridad">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Realidad Inmersiva</h5>
+                            <p>Explora mundos digitales y vive experiencias envolventes que desafían la realidad. La realidad inmersiva transforma el entretenimiento, la educación y más.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./css/pic/Img Carrusel/iot.jpeg" class="d-block w-100" alt="IoT">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>IoT</h5>
+                            <p>La Internet de las Cosas (IoT) conecta dispositivos cotidianos a internet, permitiendo la comunicación y el intercambio de datos entre ellos. Desde hogares inteligentes hasta ciudades interconectadas, IoT está cambiando nuestra forma de interactuar con el mundo.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./css/pic/Img Carrusel/p.jpeg" class="d-block w-100" alt="Programación">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Programación</h5>
+                            <p>Es el proceso de crear software y aplicaciones mediante la escritura de código. Es una habilidad fundamental en la era digital que permite a los desarrolladores transformar ideas en soluciones tecnológicas innovadoras.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./css/pic/Img Carrusel/data.jpeg" class="d-block w-100" alt="Big Data">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Big Data</h5>
+                            <p>Se refiere a la gestión y análisis de grandes volúmenes de datos para descubrir patrones, tendencias y asociaciones. Es crucial para la toma de decisiones informadas en campos como el marketing, la salud y las finanzas.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./css/pic/Img Carrusel/cs.jpeg" class="d-block w-100" alt="Ciberseguridad">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Ciberseguridad</h5>
+                            <p>Protege sistemas, redes y programas contra ataques digitales. Es esencial para salvaguardar la información sensible y garantizar la privacidad en un mundo cada vez más conectado.</p>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+                
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </section>
+
+        <section id="fundamentacion">
+            <h2>Fundamentación</h2>
+            <p>El proyecto HACKATON 2024, con sede en la Universidad de Morón, se fundamenta en la necesidad de innovar en el ámbito educativo mediante la integración de nuevas tecnologías y metodologías pedagógicas avanzadas. Esta iniciativa se apoya en varios pilares y principios clave:</p>
+            <div class="collapsible">
+                <h3 class="collapsible-header">1. Horizonte Pedagógico Disruptivo</h3>
+                <div class="collapsible-content">
+                    <p>La Hackathon se concibe como un dispositivo educativo horizontal y participativo. A diferencia de los enfoques tradicionales centrados en resultados, se pone énfasis en el proceso de trabajo, la reflexión continua y la colaboración. Esta metodología fomenta un aprendizaje significativo y transformador, alineado con las demandas del siglo XXI.</p>
+                </div>
+            </div>
+            <div class="collapsible">
+                <h3 class="collapsible-header">2. Articulación Interdisciplinaria</h3>
+                <div class="collapsible-content">
+                    <p>Promueve la integración de diferentes disciplinas, permitiendo a los estudiantes aplicar conocimientos de diversas áreas en la resolución de problemas reales, enriqueciendo así el aprendizaje y reflejando la complejidad del mundo actual.</p>
+                </div>
+            </div>
+            <div class="collapsible">
+                <h3 class="collapsible-header">3. Desarrollo de Habilidades del Siglo XXI</h3>
+                <div class="collapsible-content">
+                    <p>En un entorno digital cada vez más predominante, es esencial que los estudiantes desarrollen competencias tecnológicas y habilidades de pensamiento computacional. La Hackathon proporciona un contexto ideal para fomentar estas competencias, incentivando la descomposición de problemas complejos y abordándolos de manera lógica y sistemática.</p>
+                </div>
+            </div>
+            <div class="collapsible">
+                <h3 class="collapsible-header">4. Ciudadanía Digital y Ética en Entornos Virtuales</h3>
+                <div class="collapsible-content">
+                    <p>Se centra en la formación de una ciudadanía digital responsable y ética. A través de actividades y desafíos, los estudiantes aprenden a interactuar de manera segura y ética en entornos digitales.</p>
+                </div>
+            </div>
+            <div class="collapsible">
+                <h3 class="collapsible-header">5. Innovación Educativa y Formación Integral</h3>
+                <div class="collapsible-content">
+                    <p>Promueve la creatividad, el pensamiento crítico, la colaboración y la autonomía, formando a los estudiantes de manera integral para enfrentar los desafíos de una sociedad en constante evolución.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="inscripcion">
+            <h2>Inscripción</h2>
+            <p>Las inscripciones para el HACKATON 2024 han finalizado. ¡Gracias por tu interés!</p>
+            <p>Fecha límite de inscripción: 4/9</p>
+        </section>
+        
+
+        <section id="cronograma">
+            <h2>Cronograma</h2>
+            <h3>El evento se llevará a cabo el 12 de Septiembre de 8 a 16hs</h3>
+            <h3>Mail de contacto: hackathon@unimoron.edu.ar</h3>
+            <table class="cronograma-table">
+                <thead>
+                    <tr>
+                        <th>Horario</th>
+                        <th>Actividad</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>8:00 hs</td>
+                        <td>Armado de stands de exposición de trabajos</td>
+                    </tr>
+                    <tr>
+                        <td>9:00 hs</td>
+                        <td>Registración</td>
+                    </tr>
+                    <tr>
+                        <td>9:30 a 10:00 hs</td>
+                        <td>Acto de apertura</td>
+                    </tr>
+                    <tr>
+                        <td>10:00 a 15:00 hs</td>
+                        <td>Actividades simultáneas (según el formulario de inscripción)</td>
+                    </tr>
+                    <tr>
+                        <td>16:00 hs</td>
+                        <td>Acto de cierre</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="ubicacion">
+            <h2>Ubicación</h2>
+            <div class="map-container">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.3547384164523!2d-58.62270252479753!3d-34.64674318394508!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc761b5d05ab5%3A0x61cc266a719d5e0c!2sUniversidad%20de%20Mor%C3%B3n!5e0!3m2!1ses!2sar!4v1621518296688!5m2!1ses!2sar" 
+                    width="100%" 
+                    height="450" 
+                    style="border:0; filter: invert(90%) hue-rotate(180deg);" 
+                    allowfullscreen="" 
+                    loading="lazy">
+                </iframe>
+            </div>
+        </section>
+        
+
+        <section id="objetivos">
+            <h2>Objetivos</h2>
+            <div data-aos="fade-up" class="objectives-grid">
+                <div class="objective">
+                    <i class="fas fa-lightbulb"></i>
+                    <strong>Fomentar la Innovación Educativa</strong>
+                    <p>Promover el pensamiento interdisciplinario y la innovación en todos los niveles y modalidades de educación, desde la educación inicial hasta las universidades.</p>
+                </div>
+                <div data-aos="fade-up" class="objective">
+                    <i class="fas fa-laptop-code"></i>
+                    <strong>Desarrollar Habilidades Tecnológicas</strong>
+                    <p>Dotar a los estudiantes de competencias necesarias para navegar y prosperar en un entorno digital, incluyendo pensamiento computacional y resolución de problemas tecnológicos.</p>
+                </div>
+                <div data-aos="fade-up" class="objective">
+                    <i class="fas fa-users"></i>
+                    <strong>Promover la Ciudadanía Digital</strong>
+                    <p>Facilitar el acceso a conocimientos tecnológicos y la capacidad de abordar y resolver situaciones problemáticas en contextos virtuales.</p>
+                </div>
+                <div data-aos="fade-up" class="objective">
+                    <i class="fas fa-brain"></i>
+                    <strong>Estimular el Pensamiento Crítico y Creativo</strong>
+                    <p>A través de desafíos y juegos, los estudiantes serán desafiados a pensar fuera de lo convencional y proponer soluciones innovadoras.</p>
+                </div>
+                <div data-aos="fade-up" class="objective">
+                    <i class="fas fa-handshake"></i>
+                    <strong>Fomentar la Colaboración y el Trabajo en Equipo</strong>
+                    <p>Los equipos multidisciplinarios permitirán a los estudiantes aprender a comunicarse efectivamente y contribuir a objetivos comunes.</p>
+                </div>
+                <div data-aos="fade-up" class="objective">
+                    <i class="fas fa-book"></i>
+                    <strong>Aplicar Conocimientos Teóricos en Contextos Reales</strong>
+                    <p>Los participantes podrán poner en práctica conceptos académicos en un contexto real.</p>
+                </div>
+                <div data-aos="fade-up" class="objective">
+                    <i class="fas fa-search"></i>
+                    <strong>Promover la Investigación y la Búsqueda de Información</strong>
+                    <p>Fomentar el desarrollo de habilidades de investigación y la capacidad para buscar información confiable y pertinente.</p>
+                </div>
+                <div data-aos="fade-up" class="objective">
+                    <i class="fas fa-user-graduate"></i>
+                    <strong>Impulsar el Aprendizaje Autónomo</strong>
+                    <p>Incentivar a los estudiantes a tomar el control de su propio proceso de aprendizaje, desarrollando habilidades de autoevaluación, gestión del tiempo y búsqueda de conocimiento de manera independiente.</p>
+                </div>
+            </div>
+        </section>
+        
+        
+
+        <section id="destinatarios">
+            <h2>Destinatarios</h2>
+            <div data-aos="fade-up" class="destinatarios-grid">
+                <div class="destinatario">
+                    <i class="fas fa-child"></i>
+                    <p>Estudiantes de nivel inicial</p>
+                </div>
+                <div data-aos="fade-up" class="destinatario">
+                    <i class="fas fa-user-graduate"></i>
+                    <p>Estudiantes de nivel primario</p>
+                </div>
+                <div data-aos="fade-up" class="destinatario">
+                    <i class="fas fa-school"></i>
+                    <p>Estudiantes de nivel secundario</p>
+                </div>
+                <div data-aos="fade-up" class="destinatario">
+                    <i class="fas fa-university"></i>
+                    <p>Estudiantes universitarios</p>
+                </div>
+                <div data-aos="fade-up" class="destinatario">
+                    <i class="fas fa-tools"></i>
+                    <p>Centros de formación profesional y laboral</p>
+                </div>
+                <div data-aos="fade-up" class="destinatario">
+                    <i class="fas fa-building"></i>
+                    <p>Otras instituciones afines del municipio de Morón</p>
+                </div>
+                <!-- Nuevos destinatarios agregados -->
+                <div data-aos="fade-up" class="destinatario">
+                    <i class="fas fa-chalkboard-teacher"></i>
+                    <p>Educación Especial</p>
+                </div>
+                <div data-aos="fade-up" class="destinatario">
+                    <i class="fas fa-paint-brush"></i>
+                    <p>Educación Artística</p>
+                </div>
+                <div data-aos="fade-up" class="destinatario">
+                    <i class="fas fa-running"></i>
+                    <p>Educación Física</p>
+                </div>
+                <div data-aos="fade-up" class="destinatario">
+                    <i class="fas fa-users"></i>
+                    <p>Psicología Social y Pedagogía Comunitaria</p>
+                </div>
+                <div data-aos="fade-up" class="destinatario">
+                    <i class="fas fa-user-clock"></i>
+                    <p>Educación de Jóvenes Adultos y Adultos Mayores</p>
+                </div>
+                <div data-aos="fade-up" class="destinatario">
+                    <i class="fas fa-cogs"></i>
+                    <p>Formación Técnico Profesional</p>
+                </div>
+                <div data-aos="fade-up" class="destinatario">
+                    <i class="fas fa-wrench"></i>
+                    <p>Secundaria Técnica</p>
+                </div>
+            </div>
+        </section>
+        
+        
+
+        <section id="metodologia">
+            <h2>Metodología</h2>
+            <div class="grid-container">
+                <div data-aos="fade-up" class="grid-item" onclick="openModal('modal7')">
+                    <h3>Descripción</h3>
+                    <p>La HACKATON 2024 se estructura en torno a desafíos, competencias...</p>
+                </div>
+                <div data-aos="fade-up" class="grid-item" onclick="openModal('modal8')">
+                    <h3>Participación</h3>
+                    <p>Se promoverá la participación de instituciones educativas...</p>
+                </div>
+            </div>
+            
+            <div id="modal7" class="modal">
+                <div class="modal-content">
+                    <span class="close" onclick="closeModal('modal7')">&times;</span>
+                    <h2>Descripción</h2>
+                    <p>La HACKATON 2024 se estructura en torno a desafíos, competencias, proyectos de investigación y exposiciones organizadas por estudiantes y docentes de diferentes niveles. Se promoverá la participación de instituciones educativas para presentar trabajos de investigación, desarrollos y herramientas vinculadas al campo de la tecnología, la informática, la programación y la robótica. Profesionales del campo de la informática y la tecnología serán invitados a dar charlas abiertas.</p>
+                </div>
+            </div>
+            
+            <div id="modal8" class="modal">
+                <div class="modal-content">
+                    <span class="close" onclick="closeModal('modal8')">&times;</span>
+                    <h2>Participación</h2>
+                    <p>Se promoverá la participación de instituciones educativas para presentar trabajos de investigación, desarrollos y herramientas vinculadas al campo de la tecnología, la informática, la programación y la robótica. Profesionales del campo de la informática y la tecnología serán invitados a dar charlas abiertas.</p>
+                </div>
+            </div>
+        </section>
+        
+        
+        
+
+        <section id="propuesta">
+            <h2>Propuesta Organizativa</h2>
+            <p>Desafíos, exposiciones y mesas de trabajo colaborativo...</p>
+            <div class="accordion">
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <span>Desafíos</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="accordion-body">
+                        <p>Se organizarán diversos desafíos de dificultad media y alta, como el armado de kits de robótica, cambio de pilas en netbooks, armado de rompecabezas tecnológicos y competencias relacionadas con el algoritmo de Rubik.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <span>Exposiciones</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="accordion-body">
+                        <p>Las instituciones podrán inscribirse para presentar trabajos de investigación y desarrollos tecnológicos.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <span>Mesas de Trabajo Colaborativo</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="accordion-body">
+                        <p>Se formarán mesas de trabajo interdisciplinarias para resolver problemas cotidianos utilizando tecnologías, coordinadas por docentes moderadores.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        
+
+        <section id="articulacion">
+            <h2>Articulación Regional</h2>
+            <p>La HACKATON 2024 se plantea como un evento de alcance regional, convocando a instituciones de distritos vecinos para articular desde la presentación de propuestas hasta la participación en competencias y mesas colaborativas. La articulación regional de instituciones de diferentes niveles educativos es fundamental por varias razones:</p>
+            
+            <div class="timeline">
+                <div data-aos="fade-up" class="timeline-container left">
+                    <div class="content">
+                        <h3>Fomento del Intercambio de Conocimientos y Experiencias</h3>
+                        <p>Al involucrar a instituciones de diversos distritos y niveles educativos, se enriquece el intercambio de conocimientos y experiencias. Esta interacción promueve una comprensión más amplia y profunda de los problemas y soluciones tecnológicas, al tiempo que expone a los participantes a una variedad de perspectivas y enfoques pedagógicos.</p>
+                    </div>
+                </div>
+                <div class="timeline-container right">
+                    <div class="content">
+                        <h3>Ampliación de la Red Educativa</h3>
+                        <p>La colaboración regional permite la construcción de una red educativa más amplia y robusta, donde las instituciones pueden compartir recursos, metodologías y buenas prácticas. Esta red facilita el apoyo mutuo y el desarrollo de proyectos conjuntos, fortaleciendo el tejido educativo de la región.</p>
+                    </div>
+                </div>
+                <div data-aos="fade-up" class="timeline-container left">
+                    <div class="content">
+                        <h3>Promoción de la Igualdad de Oportunidades</h3>
+                        <p>Al convocar a instituciones de diferentes distritos, se garantiza que un mayor número de estudiantes tenga acceso a oportunidades de aprendizaje innovadoras y de alta calidad. Esta inclusividad es crucial para promover la igualdad de oportunidades educativas y reducir las brechas de acceso a recursos tecnológicos y educativos.</p>
+                    </div>
+                </div>
+                <div class="timeline-container right">
+                    <div class="content">
+                        <h3>Desarrollo de Competencias Colaborativas</h3>
+                        <p>La participación en mesas de trabajo colaborativas y competencias a nivel regional fomenta el desarrollo de competencias colaborativas y de trabajo en equipo. Los estudiantes aprenden a trabajar con pares de diferentes contextos, lo que enriquece su capacidad de adaptación y resolución de problemas en entornos diversos.</p>
+                    </div>
+                </div>
+                <div data-aos="fade-up" class="timeline-container left">
+                    <div class="content">
+                        <h3>Impulso a la Innovación Regional</h3>
+                        <p>La articulación regional en eventos como la HACKATON 2024 impulsa la innovación en la educación, ya que reúne a las mentes más creativas y comprometidas de diferentes instituciones. Esta sinergia puede dar lugar a soluciones tecnológicas y pedagógicas innovadoras que beneficien a toda la región.</p>
+                    </div>
+                </div>
+                <div data-aos="fade-up" class="timeline-container right">
+                    <div class="content">
+                        <h3>Comunidad Educativa</h3>
+                        <p>RLa colaboración regional refuerza el sentido de comunidad entre las instituciones educativas. Al trabajar juntas en proyectos compartidos, se construyen relaciones más sólidas y se fomenta un espíritu de cooperación que trasciende los límites distritales.</p>
+                    </div>
+                </div>
+            </div>
+            <br>
+            
+            <p>En resumen, la articulación regional en la HACKATON 2024 es esencial para crear un entorno de aprendizaje dinámico y colaborativo, donde las instituciones de diferentes niveles y distritos puedan contribuir y beneficiarse mutuamente. Esta colaboración no solo enriquece la experiencia educativa de los estudiantes, sino que también fortalece la capacidad de las instituciones para enfrentar los desafíos educativos del siglo XXI de manera conjunta y eficaz.</p>
+        </section>
+        
+        
+        
+        
+        
+        
+
+        <section id="evaluacion">
+            <h2>Evaluación y Monitoreo</h2>
+            <ul>
+                <li>Sesiones de Retroalimentación: Los participantes compartirán sus experiencias, dificultades y logros.</li>
+                <li>Encuestas: Se administrarán encuestas anónimas para medir la satisfacción y la percepción de la efectividad del enfoque pedagógico.</li>
+                <li>Análisis de Resultados y Productos: Se evaluará la calidad de las soluciones propuestas y la innovación tecnológica.</li>
+                <li>Sesiones de Mejora y Planificación Futura: Se realizarán sesiones de seguimiento para identificar áreas de mejora.</li>
+                <li>Informe de Evaluación Integral: Se elaborará un informe que compile los resultados de las evaluaciones, destacando logros y oportunidades de mejora.</li>
+            </ul>
+        </section>
+
+        <hr class="section-divider">
+
+        <section id="beneficios">
+            <h2>Beneficios</h2>
+            <ul>
+                <li data-aos="fade-up"><i class="fas fa-lightbulb"></i>Estimulación del Pensamiento Creativo y Crítico.</li>
+                <li data-aos="fade-up"><i class="fas fa-users"></i>Fomento de la Colaboración y el Trabajo en Equipo.</li>
+                <li data-aos="fade-up"><i class="fas fa-cogs"></i>Aplicación Práctica de Conocimientos Teóricos.</li>
+                <li data-aos="fade-up"><i class="fas fa-laptop-code"></i>Desarrollo de Habilidades Técnicas y Tecnológicas.</li>
+                <li data-aos="fade-up"><i class="fas fa-search"></i>Promoción de la Investigación y la Búsqueda de Información.</li>
+                <li data-aos="fade-up"><i class="fas fa-comments"></i>Potenciación de la Comunicación Oral y Escrita.</li>
+                <li data-aos="fade-up"><i class="fas fa-user-check"></i>Estímulo de la Autonomía y la Autogestión del Aprendizaje.</li>
+                <li data-aos="fade-up"><i class="fas fa-award"></i>Exhibición de Proyectos y Logros.</li>
+                <li data-aos="fade-up"><i class="fas fa-school"></i>Creación de un Ambiente de Aprendizaje Motivador.</li>
+                <li data-aos="fade-up"><i class="fas fa-school"></i>Creación de un Ambiente de Aprendizaje Motivador.</li>
+                <li data-aos="fade-up"><i class="fas fa-layer-group"></i>Integración de Diversas Disciplinas y Enfoques Educativos.</li>
+            </ul>
+        </section>
+        
+
+        <section id="conclusion">
+            <h2>Conclusión</h2>
+            <p>La HACKATON 2024, con sede en la Universidad de Morón, se proyecta como una iniciativa transformadora en el ámbito educativo, con un impacto significativo en diversos niveles y modalidades de enseñanza. Las principales conclusiones de este proyecto son:</p>
+            <div class="accordion">
+                <div data-aos="fade-up" class="accordion-item">
+                    <input type="checkbox" id="item1" hidden>
+                    <label for="item1" class="accordion-title">
+                        <i class="fas fa-lightbulb"></i> Innovación Educativa
+                    </label>
+                    <div class="accordion-content">
+                        <h3>Impulso a la Innovación Educativa</h3>
+                        <p>La Hackathon se establece como un modelo innovador de enseñanza que rompe con los métodos tradicionales, introduciendo nuevas formas de aprender y enseñar. Este enfoque disruptivo permite a los estudiantes experimentar y explorar, lo que se traduce en un aprendizaje más profundo y significativo.</p>
+                    </div>
+                </div>
+                <div data-aos="fade-up" class="accordion-item">
+                    <input type="checkbox" id="item2" hidden>
+                    <label for="item2" class="accordion-title">
+                        <i class="fas fa-cogs"></i> Habilidades Esenciales
+                    </label>
+                    <div class="accordion-content">
+                        <h3>Fomento de Habilidades Esenciales</h3>
+                        <p>A través de la participación en la Hackathon, los estudiantes desarrollan habilidades esenciales para el siglo XXI, como el pensamiento crítico y creativo, la colaboración, la comunicación efectiva y las competencias tecnológicas. Estas habilidades son fundamentales para su éxito en el mundo contemporáneo.</p>
+                    </div>
+                </div>
+                <div data-aos="fade-up" class="accordion-item">
+                    <input type="checkbox" id="item3" hidden>
+                    <label for="item3" class="accordion-title">
+                        <i class="fas fa-users"></i> Comunidad Educativa
+                    </label>
+                    <div class="accordion-content">
+                        <h3>Construcción de una Comunidad Educativa Colaborativa</h3>
+                        <p>La Hackathon promueve la construcción de una comunidad educativa colaborativa, donde estudiantes, docentes y profesionales de diversas disciplinas trabajan juntos para resolver problemas y crear soluciones innovadoras. Este enfoque colaborativo fortalece los vínculos entre los participantes y enriquece el proceso educativo.</p>
+                    </div>
+                </div>
+                <div data-aos="fade-up" class="accordion-item">
+                    <input type="checkbox" id="item4" hidden>
+                    <label for="item4" class="accordion-title">
+                        <i class="fas fa-digital-tachograph"></i> Futuro Digital
+                    </label>
+                    <div class="accordion-content">
+                        <h3>Preparación para el Futuro Digital</h3>
+                        <p>Al integrar tecnologías avanzadas y fomentar el pensamiento computacional, la Hackathon prepara a los estudiantes para un futuro digital. Esta preparación es crucial en una era donde la tecnología juega un papel central en todos los aspectos de la vida.</p>
+                    </div>
+                </div>
+                <div data-aos="fade-up" class="accordion-item">
+                    <input type="checkbox" id="item5" hidden>
+                    <label for="item5" class="accordion-title">
+                        <i class="fas fa-shield-alt"></i> Ciudadanía Digital
+                    </label>
+                    <div data-aos="fade-up" class="accordion-content">
+                        <h3>Consolidación de la Ciudadanía Digital</h3>
+                        <p>La Hackathon también contribuye a la formación de ciudadanos digitales responsables y éticos, capaces de navegar y prosperar en entornos virtuales. Esta formación es esencial para la construcción de una sociedad digital más justa y equitativa.</p>
+                    </div>
+                </div>
+                <div data-aos="fade-up" class="accordion-item">
+                    <input type="checkbox" id="item6" hidden>
+                    <label for="item6" class="accordion-title">
+                        <i class="fas fa-chalkboard-teacher"></i> Teoría y Práctica
+                    </label>
+                    <div class="accordion-content">
+                        <h3>Vinculación Teórica y Práctica</h3>
+                        <p>La Hackathon logra una articulación efectiva entre el conocimiento teórico y su aplicación práctica, permitiendo a los estudiantes ver la relevancia de lo que aprenden en el aula y cómo se puede aplicar en el mundo real.</p>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <p>En resumen, la HACKATON 2024 no solo busca mejorar las competencias tecnológicas de los estudiantes, sino también transformar la educación, fomentando un enfoque integral y colaborativo que prepare a los estudiantes para los desafíos del siglo XXI. Este proyecto se posiciona como un referente de innovación educativa, capaz de generar un impacto positivo y duradero en la comunidad educativa.</p>
+        </section>
+        
+
+
+        <section id="sponsors-section" class="sponsors-section section">
+            <div class="container-session">
+                <h3 class="section-heading text-center mb-3">Auspicios</h3>
+                <div class="logos-container">
+                    <div class="logo-container"><img src="./css/pic/aus/sadio.png" alt=""></div>
+                    <div class="logo-container"><img src="./css/pic/aus/isologo crup.png" alt=""></div>
+                    <div class="logo-container"><img src="./css/pic/aus/Isologotipo-CIC-vertical.png" alt=""></div>
+                </div>
+            </div>
+        </section>
+        
+        
+        
+    </main>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="./js/nav.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/acordion.js"></script>
+    <script src="./js/card.js"></script>
+    <script src="./js/aos.js"></script>
+    <script src="./js/linea.js"></script>
+
+    <footer class="footer py-5 theme-bg-primary">
+        <div class="container-footer">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="./css/pic/Logo-UM.png" alt="Logo UM" class="logo-icon">
+                </div>
+                <div class="footer-social">
+                    <ul class="social-list list-inline mb-4">
+                        <li class="conteiner-mail"><a href="mailto:hackathon@unimoron.edu.ar" target="_blank"><i class="fas fa-envelope"></i></a></li>
+                        <li class="container-twitter"><a href="https://twitter.com/uni_moron" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                        <li class="container-instagram"><a href="https://www.instagram.com/unimoron.edu.ar" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                        <li class="container-youtube"><a href="http://www.youtube.com/@UniversidaddeMoronUM" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                        <li class="container-linkedin"><a href="https://www.linkedin.com/school/umoficial/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <small>HACKATON 2024 - UM</small>
+                <small>Diseñado por Álvaro Arizu</small>
+            </div>
+        </div>
+    </footer>
+    
+    
+    
+    
+
+</body>
+</html>
+
+

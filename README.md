@@ -51,7 +51,8 @@ El sitio web ofrece una plataforma para conocer detalles del evento, como **fund
 
 ## Estructura del Proyecto
 
-bash
+
+```bash
 ├── index.html                  # Página principal
 ├── css/                        # Carpeta de archivos CSS
 │   └── style.css               # Archivo de estilos principal
@@ -60,6 +61,8 @@ bash
 ├── img/                        # Carpeta de imágenes
 │   ├── pic/                    # Imágenes del sitio
 └── README.md                   # Este archivo
+
+```
 
 ## Contribuciones
 

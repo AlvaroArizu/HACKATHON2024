@@ -8,7 +8,7 @@ El sitio web ofrece una plataforma para conocer detalles del evento, como **fund
 
 ## Página en Línea
 
-Puedes acceder al sitio web del congreso en: [INNOVED 2024](https://hackathon.unimoron.edu.ar/)
+Puedes acceder al sitio web del congreso en: [HACKATHON 2024](https://hackathon.unimoron.edu.ar/)
 
 ## Características del Proyecto
 

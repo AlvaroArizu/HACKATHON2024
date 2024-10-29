@@ -6,6 +6,10 @@ Este proyecto fue desarrollado para la **Universidad de Morón** en el marco del
 
 El sitio web ofrece una plataforma para conocer detalles del evento, como **fundamentación**, **cronograma**, **objetivos**, **inscripción**, **ubicación**, entre otras secciones clave para los participantes.
 
+## Página en Línea
+
+Puedes acceder al sitio web del congreso en: [INNOVED 2024](https://hackathon.unimoron.edu.ar/)
+
 ## Características del Proyecto
 
 - **Secciones principales**:
